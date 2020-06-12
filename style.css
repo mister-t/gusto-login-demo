@@ -75,8 +75,15 @@ a:hover {
   border-bottom-color: #cc683c;
 }
 
-.form-container input[type="checkbox"] {
+.remember-device {
   margin-top: 10px;
+  font-size: 16px;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.form-container input[type="checkbox"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
