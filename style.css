@@ -130,6 +130,12 @@ a:hover {
   margin-top: 10px;
 }
 
+.remember-device i:before {
+  vertical-align: -1px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
 .form-container input[type="submit"] {
   display: block;
   margin-top: 20px;
