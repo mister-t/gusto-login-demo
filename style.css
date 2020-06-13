@@ -159,10 +159,24 @@ a:hover {
 .remember-device {
   margin-bottom: 15px;
 }
+.remember-device .info-circle {
+  display: inline-block;
+  text-align: center;
 
-.remember-device i:before {
-  vertical-align: -1px;
-  margin-left: 4px;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+
+  border: 2px #0a8080 solid;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.remember-device .info-circle label {
+  /*&#8505; */
+  color: #0a8080;
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 800;
   cursor: pointer;
 }
 
