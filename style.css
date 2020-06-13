@@ -92,7 +92,7 @@ a:hover {
   width: 20px;
   height: 20px;
   background: white;
-  border: 1px solid #525257; #0a8080;
+  border: 1px solid #525257;
   border-radius: 4px;
 }
 
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .styled-checkbox:checked + label:before {
-  background: #f35429;
+  background: #0a8080;
 }
 
 .styled-checkbox:checked + label:after {
@@ -115,34 +115,17 @@ a:hover {
   left: 5px;
   top: 9px;
   background: white;
-  width: 2px;
-  height: 2px;
+  width: 3px;
+  height: 3px;
   box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
     4px -6px 0 white, 4px -8px 0 white;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-/* .remember-device {
+.remember-device {
   margin-top: 10px;
-  font-size: 16px;
-
-  display: flex;
-  align-items: flex-start;
-} */
-
-/* .form-container input[type="checkbox"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-  border-radius: 4px;
-  background-color: #fff;
-  border: 1px solid #000000;
-} */
+}
 
 .form-container input[type="submit"] {
   display: block;
