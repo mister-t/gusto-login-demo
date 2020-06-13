@@ -22,7 +22,7 @@ a:hover {
 
 .container {
   display: flex;
-  width: 100%;
+  width: 1000px;
   height: 100vh;
 }
 
@@ -33,7 +33,28 @@ a:hover {
   line-height: 1.5;
 }
 
+.outer-wrapper {
+  position: relative; /* for the images to the left & right of the form */
+  padding-top: 60px;
+}
+
+.outer-wrapper img {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}
+.outer-wrapper .left-image {
+  left: -300px;
+  top: 155px;
+}
+
+.outer-wrapper .right-image {
+  right: -375px;
+  top: 234px;
+}
+
 .banner {
+  position: relative;
   max-width: 50%;
   margin: 0 auto;
   padding-bottom: 30px;
@@ -42,11 +63,11 @@ a:hover {
 .form-container {
   box-sizing: border-box;
   display: flex;
-  flex-direction: column; /* default is "row" */
-  justify-content: center; /* justifying the elements */
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 
-  width: 860px;
+  width: 540px;
   height: 600px;
   padding: 120px 60px;
 
