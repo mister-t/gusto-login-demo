@@ -6,6 +6,7 @@
 body {
   background-color: #fbfafa;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
 }
 
 a {
@@ -83,6 +84,7 @@ a:hover {
   position: relative;
   cursor: pointer;
   padding: 0;
+  font-size: 16px;
 }
 .styled-checkbox + label:before {
   content: "";
@@ -94,6 +96,7 @@ a:hover {
   background: white;
   border: 1px solid #525257;
   border-radius: 4px;
+  vertical-align: middle; /* moving the checkbox to align to the text */
 }
 
 .styled-checkbox:hover + label:before {
@@ -113,7 +116,7 @@ a:hover {
   content: "";
   position: absolute;
   left: 5px;
-  top: 9px;
+  top: 6px;
   background: white;
   width: 3px;
   height: 3px;
