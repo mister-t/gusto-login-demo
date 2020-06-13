@@ -91,7 +91,7 @@ a:hover {
   margin-right: 10px;
   display: inline-block;
   vertical-align: text-top;
-  width: 20px;
+  width: 19px;
   height: 20px;
   background: white;
   border: 1px solid #525257;
@@ -116,7 +116,7 @@ a:hover {
   content: "";
   position: absolute;
   left: 5px;
-  top: 6px;
+  top: 7px;
   background: white;
   width: 3px;
   height: 3px;
