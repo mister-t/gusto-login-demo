@@ -50,13 +50,13 @@ main {
   z-index: -1;
 }
 .outer-img-wrapper .left-image {
-  left: -300px;
-  top: 155px;
+  left: -400px;
+  top: 223px;
 }
 
 .outer-img-wrapper .right-image {
   right: -375px;
-  top: 234px;
+  top: 300px;
 }
 
 .banner {
