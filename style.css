@@ -33,22 +33,22 @@ a:hover {
   line-height: 1.5;
 }
 
-.outer-wrapper {
+.outer-img-wrapper {
   position: relative; /* for the images to the left & right of the form */
   padding-top: 60px;
 }
 
-.outer-wrapper > img {
+.outer-img-wrapper > img {
   position: absolute;
   bottom: 0;
   z-index: -1;
 }
-.outer-wrapper .left-image {
+.outer-img-wrapper .left-image {
   left: -300px;
   top: 155px;
 }
 
-.outer-wrapper .right-image {
+.outer-img-wrapper .right-image {
   right: -375px;
   top: 234px;
 }
