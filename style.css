@@ -20,9 +20,13 @@ a:hover {
   cursor: pointer;
 }
 
+main {
+  display: flex;
+}
+
 .container {
   display: flex;
-  width: 1000px;
+  width: 70%;
   height: 100vh;
 }
 
@@ -300,7 +304,7 @@ footer {
 }
 
 .announcement {
-  box-sizing: border-box;
-  /* width: 30%; */
   display: none;
+  box-sizing: border-box;
+  width: 30%;
 }
