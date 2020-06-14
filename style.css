@@ -322,7 +322,11 @@ footer p {
 }
 
 .announcement {
-  display: none;
+  background-color: #f4f4f3;
   box-sizing: border-box;
-  width: 30%;
+}
+
+.announcement .wrapper {
+  width: 420px;
+  padding: 240px 20px 0;
 }
