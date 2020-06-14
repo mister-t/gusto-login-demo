@@ -297,7 +297,10 @@ of the  left & right lines, in conjunction of "top" */
   left: 50%;
   width: 22px;
   height: 22px;
-  transform: translate(-240%, -50%);
+  transform: translate(
+    -240%,
+    -10%
+  ); /* align near the bottom of the word 'Intuit' */
 }
 
 .additional-help {
