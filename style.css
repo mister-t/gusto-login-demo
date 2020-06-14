@@ -35,7 +35,7 @@ a:hover {
 
 .outer-wrapper {
   position: relative; /* for the images to the left & right of the form */
-  padding: 60px;
+  padding-top: 60px;
 }
 
 .outer-wrapper > img {
@@ -67,8 +67,8 @@ a:hover {
   align-items: center;
 
   width: 540px;
-  height: 600px;
-  padding: 120px 60px;
+  /* height: 600px; */
+  padding: 15px 20px 30px 20px;
 
   background: #fff;
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
