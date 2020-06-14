@@ -310,7 +310,12 @@ of the  left & right lines, in conjunction of "top" */
   border-bottom: 1px solid #0a8080;
 }
 footer {
-  display: none;
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 20px;
 }
 
 .announcement {
