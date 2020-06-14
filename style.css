@@ -300,6 +300,15 @@ of the  left & right lines, in conjunction of "top" */
   transform: translate(-240%, -50%);
 }
 
+.additional-help {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.help-link {
+  border-bottom: 1px solid #0a8080;
+}
 footer {
   display: none;
 }
