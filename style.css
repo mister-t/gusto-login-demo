@@ -93,10 +93,14 @@ main {
   box-shadow: inset 0 -100px 0 -99px #919197;
   /* transition: border-bottom-color 0.8s; */
 }
+.form-input:hover {
+  background-color: #f3fafb;
+}
 
 .form-input:focus {
   border-bottom: 2px;
-  border-color: #525257;
+  border-bottom-color: #0a8080;
+  background-color: #f3fafb;
 }
 
 .styled-checkbox {
