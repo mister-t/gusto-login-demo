@@ -27,7 +27,6 @@ main {
 }
 
 .container {
-  /* display: flex; */
   width: 55%;
 }
 
@@ -54,7 +53,7 @@ main {
 }
 
 .outer-img-wrapper .right-image {
-  right: -375px;
+  right: -216px;
   top: 300px;
 }
 
