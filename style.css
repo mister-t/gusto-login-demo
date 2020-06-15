@@ -335,6 +335,7 @@ footer p {
 
   color: #525257;
   text-align: left;
+  letter-spacing: 0.5px;
 
   background-color: #fff;
   border: 1px solid #dcdcdc;
@@ -342,6 +343,20 @@ footer p {
   box-shadow: 0 3px 6px rgba(34, 37, 37, 0.15);
 }
 .announcement .wrapper img {
-  width: 32px;
+  width: 36px;
   height: 30px;
+  margin-bottom: 15px;
+}
+
+.announcement .wrapper .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.announcement .wrapper .description {
+  color: #525257;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
 }
