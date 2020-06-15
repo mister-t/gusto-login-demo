@@ -59,7 +59,7 @@ main {
 
 .banner {
   position: relative;
-  max-width: 50%;
+  width: 175px;
   margin: 30px auto;
 }
 
