@@ -104,6 +104,7 @@ main {
 }
 
 .form-input:focus {
+  padding-bottom: 11px;
   background-color: #f3fafb;
   border-bottom: 2px solid #0a8080;
 }
