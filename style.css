@@ -71,7 +71,7 @@ main {
   align-items: center;
 
   width: 540px;
-  padding: 15px 20px 30px 20px;
+  padding: 15px 65px;
 
   background: #fff;
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
@@ -311,6 +311,7 @@ of the  left & right lines, in conjunction of "top" */
   border-bottom: 1px solid #0a8080;
 }
 footer {
+  width: 540px;
   margin-top: 20px;
   font-size: 14px;
   text-align: center;
