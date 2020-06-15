@@ -79,6 +79,11 @@ main {
   border: 1px solid #dcdcdc;
 }
 
+.form-label {
+  display: inline-block;
+  margin-top: 15px;
+}
+
 .form-input {
   width: 100%;
   background-color: #f4f4f3;
@@ -87,12 +92,13 @@ main {
   font-size: 18px;
   border: none;
   border-radius: 4px;
+  outline: none;
   caret-color: #005961;
   padding: 13px 12px;
   margin-bottom: 15px;
   box-shadow: inset 0 -100px 0 -99px #919197;
-  /* transition: border-bottom-color 0.8s; */
 }
+
 .form-input:hover {
   background-color: #f3fafb;
 }
