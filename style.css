@@ -104,9 +104,8 @@ main {
 }
 
 .form-input:focus {
-  border-bottom: 2px;
-  border-bottom-color: #0a8080;
   background-color: #f3fafb;
+  border-bottom: 2px solid #0a8080;
 }
 
 .styled-checkbox {
